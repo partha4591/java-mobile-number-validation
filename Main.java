@@ -5,9 +5,9 @@ import java.util.regex.Pattern;
 import java.util.Scanner;
 
 class phone{
-
+       private String phoneno;
     void phone(){
-        String phoneno;
+        
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter phone no: ");
         phoneno = scan.next();
